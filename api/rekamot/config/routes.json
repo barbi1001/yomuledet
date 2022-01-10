@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rekamots",
+      "handler": "rekamot.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekamots/count",
+      "handler": "rekamot.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rekamots/:id",
+      "handler": "rekamot.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rekamots",
+      "handler": "rekamot.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rekamots/:id",
+      "handler": "rekamot.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rekamots/:id",
+      "handler": "rekamot.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
